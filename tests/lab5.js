@@ -1,5 +1,5 @@
 let LabData = {
-  LAB_ID: "lab5",
+  LAB_ID: 5,
   failCount: 0,
   passCount: 0,
   reporter: {

@@ -31,7 +31,7 @@ describe("Student", function() {
   it('Has entered a name', function() {
     expect(StudentName).not.toEqual("");
   });
-}
+});
 
 
 describe("hello", function() {

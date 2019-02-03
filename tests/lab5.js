@@ -2,7 +2,7 @@ let LabData = {
   LAB_ID: "lab5",
   failCount: 0,
   passCount: 0,
-  reporter = {
+  reporter: {
     specDone: function(result) {
       LabData.failCount += result.failedExpectations.length;
       LabData.passCount += result.passedExpectations.length;

@@ -18,7 +18,7 @@ let LabData = {
       const params = {
         method: 'POST',
         mode: 'cors',
-        body: body
+        body: JSON.stringify(body)
       };
       fetch(endpoint, params)
         .catch(err => {console.log(err)});
